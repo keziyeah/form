@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<title>Edit Profile</title>
+<body>
+<body style="background-color:lightgrey">
+<font style="font-family:caviar dreams">
+
+<center>
+<br><br>
+<div style="width:370px;height:485px;border:1px solid black; border-radius: 8px; background:#bbb;">
+<br><h1>Edit Profile</h1>
+
+<br>My name is
+<input type="text"> .
+
+<br><br>I was born a <input type="radio" name="sex" value="male" checked>male
+<input type="radio" name="sex" value="female">female 
+
+<br><br> on <select name=" Month ">
+<option value="fiat" selected> </option>
+<option value="volvo">Jan</option>
+<option value="saab">Feb</option>
+<option value="fiat">Mar</option>
+<option value="audi">Apr</option>
+<option value="volvo">May</option>
+<option value="saab">Jun</option>
+<option value="fiat">Jul</option>
+<option value="audi">Aug</option>
+<option value="volvo">Sept</option>
+<option value="saab">Oct</option>
+<option value="fiat">Nov</option>
+<option value="audi">Dec</option>
+</select> <select name=" Date ">
+<option value="fiat" selected> </option>
+<option value="volvo">01</option>
+<option value="saab">02</option>
+<option value="fiat">03</option>
+<option value="audi">04</option>
+<option value="volvo">05</option>
+<option value="saab">06</option>
+<option value="fiat">07</option>
+<option value="audi">08</option>
+<option value="fiat">09</option>
+<option value="audi">10</option>
+<option value="volvo">11</option>
+<option value="saab">12</option>
+<option value="fiat">13</option>
+<option value="audi">14</option>
+<option value="volvo">15</option>
+<option value="saab">16</option>
+<option value="fiat">17</option>
+<option value="audi">18</option>
+<option value="fiat">19</option>
+<option value="audi">20</option>
+<option value="volvo">21</option>
+<option value="saab">22</option>
+<option value="fiat">23</option>
+<option value="audi">24</option>
+<option value="volvo">25</option>
+<option value="saab">26</option>
+<option value="fiat">27</option>
+<option value="audi">28</option>
+<option value="fiat">29</option>
+<option value="audi">30</option>
+<option value="audi">31</option>
+</select> <select name=" Year ">
+<option value="fiat" selected> </option>
+<option value="volvo">1999</option>
+<option value="saab">1998</option>
+<option value="fiat">1997</option>
+<option value="audi">1996</option>
+<option value="volvo">1995</option>
+<option value="saab">1994</option>
+<option value="fiat">1993</option>
+<option value="audi">1992</option>
+<option value="fiat">1991</option>
+<option value="audi">1990</option>
+</select> .
+
+<br><br>My favorite primary color/s is/are
+<br><br><input type="checkbox" name="vehicle" value="Bike">red
+<input type="checkbox" name="vehicle" value="Car">blue
+<input type="checkbox" name="vehicle" value="Car">green .
+
+<br><br><textarea name="message" rows="5" cols="40" style="font-family:caviar dreams">
+More about me...
+</textarea>
+
+
+<br><br><input type="submit" value="Save">
+</div>
+</center>
+</form>
+</body>
+</html>
